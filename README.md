@@ -1,0 +1,3 @@
+# Incorrect List Modification in Elixir
+
+This example demonstrates a common mistake when trying to modify a list while iterating over it using `Enum.each`.  The code attempts to remove the number 3 from the list, but it does not function correctly because it creates a new list instead of modifying the original. The solution shows the correct approach using Enum.reduce or recursion for effective list modification.
